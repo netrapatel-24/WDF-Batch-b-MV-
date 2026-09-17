@@ -1,0 +1,166 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#eef8fa;
+    color:#02353C;
+}
+
+
+.dashboard{
+    display:flex;
+    min-height:100vh;
+}
+
+
+.side{
+    width:17%;
+    min-height:100vh;
+    background:#02353C;
+    padding:25px 15px;
+    color:white;
+}
+
+.side h1{
+    text-align:center;
+    margin-bottom:25px;
+}
+
+.side hr{
+    border:none;
+    border-top:1px solid #62c4d3;
+    margin-bottom:20px;
+}
+
+.side a{
+    display:block;
+    text-decoration:none;
+    color:white;
+    padding:14px 15px;
+    margin:6px 0;
+    border-radius:8px;
+    font-size:16px;
+}
+
+.side a:hover{
+    background:#2e788f;
+}
+
+.side .logout{
+    margin-top:40px;
+}
+
+
+.main{
+    width:78%;
+    padding:25px;
+}
+
+
+.top{
+    background:white;
+    padding:15px 25px;
+    border-radius:12px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0 3px 10px rgba(0,0,0,0.08);
+}
+
+.top h2{
+    margin:0;
+    color:#02353C;
+}
+
+.student{
+    display:flex;
+    align-items:center;
+    font-size:16px;
+}
+
+.intro{
+    width:100%;
+    margin-top:20px;
+    padding:20px;
+    background:linear-gradient(to right,#62c4d3,#a3c8d3);
+    border-radius:10px;
+    border-spacing:0;
+}
+
+.intro h1{
+    margin:5px 0;
+    color:#02353C;
+}
+
+.intro p{
+    color:#365c60;
+    font-size:16px;
+}
+
+.st{
+    margin-top:25px;
+    color:#02353C;
+}
+
+.ext{
+    width:100%;
+    margin-top:15px;
+    background:white;
+    border-spacing:0;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 3px 10px rgba(0,0,0,0.08);
+}
+
+.ext th{
+    background:#02353C;
+    color:white;
+    padding:15px;
+    text-align:left;
+}
+
+.ext td{
+    padding:18px 15px;
+    border-bottom:1px solid #e1eeee;
+    color:#365c60;
+}
+
+.ext tr:last-child td{
+    border-bottom:none;
+}
+
+.ext td:nth-child(2){
+    font-weight:bold;
+    color:#02353C;
+}
+
+.up{
+    background:#9ce8f1;
+    color:#02353C;
+    padding:7px 12px;
+    border-radius:6px;
+    font-weight:bold;
+    font-size:14px;
+}
+
+.instr{
+    width:100%;
+    margin-top:20px;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    border-spacing:0;
+    box-shadow:0 3px 10px rgba(0,0,0,0.08);
+}
+
+.instr h2{
+    margin-top:5px;
+    color:#02353C;
+}
+
+.instr p{
+    color:#547174;
+    line-height:1.5;
+}
