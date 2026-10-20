@@ -1,0 +1,245 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "name": "Web Technology Workshop",
+      "date": "2026-09-25",
+      "venue": "Computer Lab 2",
+      "category": "Workshop",
+      "description": "A workshop on modern web development and JavaScript."
+    },
+    {
+      "id": 2,
+      "name": "Techstack Seminar",
+      "date": "2026-09-28",
+      "venue": "Charusat Auditorium",
+      "category": "Seminar",
+      "description": "An interactive seminar about current technology trends."
+    },
+    {
+      "id": 3,
+      "name": "Coding Competition",
+      "date": "2026-10-02",
+      "venue": "Programming Lab",
+      "category": "Competition",
+      "description": "Students can participate in a coding competition."
+    },
+    {
+      "id": 4,
+      "name": "Database Workshop",
+      "date": "2026-10-05",
+      "venue": "Computer Lab 1",
+      "category": "Workshop",
+      "description": "Learn SQL queries, database design and normalization."
+    },
+    {
+      "id": 5,
+      "name": "Career Guidance Session",
+      "date": "2026-10-08",
+      "venue": "Seminar Hall",
+      "category": "Seminar",
+      "description": "A session focused on career opportunities for students."
+    },
+    {
+      "id": 6,
+      "name": "Sports Day",
+      "date": "2026-10-12",
+      "venue": "College Ground",
+      "category": "Sports",
+      "description": "Annual sports activities and competitions for students."
+    }
+  ],
+  "notices": [
+    {
+      "id": 1,
+      "title": "Mid-Semester Examination",
+      "date": "2026-09-20",
+      "category": "Examination",
+      "description": "Mid-semester examinations will begin from 20 September."
+    },
+    {
+      "id": 2,
+      "title": "Assignment Submission",
+      "date": "2026-09-22",
+      "category": "Academic",
+      "description": "Students must submit their Database Management assignment."
+    },
+    {
+      "id": 3,
+      "title": "Library Book Return",
+      "date": "2026-09-24",
+      "category": "Library",
+      "description": "Students are requested to return borrowed library books."
+    },
+    {
+      "id": 4,
+      "title": "Web Technology Workshop",
+      "date": "2026-09-25",
+      "category": "Events",
+      "description": "Registration is open for the Web Technology Workshop."
+    },
+    {
+      "id": 5,
+      "title": "Holiday Notice",
+      "date": "2026-10-01",
+      "category": "General",
+      "description": "The college will remain closed on the scheduled holiday."
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "name": "Netra Patel",
+      "rollNo": "23CE001",
+      "course": "Computer Engineering",
+      "semester": 3,
+      "cgpa": 8.72
+    },
+    {
+      "id": 2,
+      "name": "Riya Shah",
+      "rollNo": "23CE002",
+      "course": "Computer Engineering",
+      "semester": 3,
+      "cgpa": 8.45
+    },
+    {
+      "id": 3,
+      "name": "Aarav Mehta",
+      "rollNo": "23CE003",
+      "course": "Computer Engineering",
+      "semester": 3,
+      "cgpa": 8.91
+    },
+    {
+      "id": 4,
+      "name": "Dhruvi Patel",
+      "rollNo": "23CE004",
+      "course": "Computer Engineering",
+      "semester": 3,
+      "cgpa": 8.35
+    },
+    {
+      "id": 5,
+      "name": "Yash Shah",
+      "rollNo": "23CE005",
+      "course": "Computer Engineering",
+      "semester": 3,
+      "cgpa": 8.67
+    },
+    {
+      "id": 6,
+      "name": "Ananya Desai",
+      "rollNo": "23CE006",
+      "course": "Computer Engineering",
+      "semester": 3,
+      "cgpa": 9.02
+    }
+  ],
+  "faqs": [
+    {
+      "id": 1,
+      "question": "How can I check my attendance?",
+      "answer": "Open the Attendance page from the dashboard to view your subject-wise attendance."
+    },
+    {
+      "id": 2,
+      "question": "Where can I find my examination schedule?",
+      "answer": "Open the Exams page to view upcoming examination dates, timings and rooms."
+    },
+    {
+      "id": 3,
+      "question": "Where can I find study materials?",
+      "answer": "Open the Materials page to access available notes and study resources."
+    },
+    {
+      "id": 4,
+      "question": "How can I check my results?",
+      "answer": "Open the Results page from the dashboard to view your marks and grades."
+    },
+    {
+      "id": 5,
+      "question": "How can I register for an event?",
+      "answer": "Open the Events page and check the available events and registration details."
+    },
+    {
+      "id": 6,
+      "question": "Who can I contact for academic help?",
+      "answer": "You can contact the student help desk or your respective faculty member."
+    }
+  ],
+  "exams": [
+    {
+        "id": 1,
+        "date": "2026-09-25",
+        "subject": "Data Structures",
+        "time": "10:00 AM",
+        "room": "Room 204",
+        "status": "Upcoming"
+    },
+    {
+        "id": 2,
+        "date": "2026-09-28",
+        "subject": "Database Management",
+        "time": "10:00 AM",
+        "room": "Room 301",
+        "status": "Upcoming"
+    },
+    {
+        "id": 3,
+        "date": "2026-10-02",
+        "subject": "Web Technology",
+        "time": "02:00 PM",
+        "room": "Lab 2",
+        "status": "Upcoming"
+    },
+    {
+        "id": 4,
+        "date": "2026-10-05",
+        "subject": "Engineering Mathematics",
+        "time": "10:00 AM",
+        "room": "Room 105",
+        "status": "Upcoming"
+    },
+    {
+        "id": 5,
+        "date": "2026-07-10",
+        "subject": "Data Structures",
+        "time": "10:00 AM",
+        "room": "Room 205",
+        "status": "Past"
+    },
+    {
+        "id": 6,
+        "date": "2026-07-13",
+        "subject": "Database Management",
+        "time": "10:00 AM",
+        "room": "Room 301",
+        "status": "Past"
+    },
+    {
+        "id": 7,
+        "date": "2026-07-15",
+        "subject": "Web Technology",
+        "time": "02:00 PM",
+        "room": "Lab 2",
+        "status": "Past"
+    },
+    {
+        "id": 8,
+        "date": "2026-07-19",
+        "subject": "Engineering Mathematics",
+        "time": "10:00 AM",
+        "room": "Room 103",
+        "status": "Past"
+    },
+    {
+        "id": 9,
+        "date": "2026-07-30",
+        "subject": "Engineering Mathematics",
+        "time": "10:00 AM",
+        "room": "Room 108",
+        "status": "Ongoing"
+    }
+]
+}
