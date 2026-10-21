@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>EduVerse - Notices</title>
+    <link rel="stylesheet" href="notices.css">
+</head>
+
+<body>
+    <div class="dashboard">
+        <div class="side">
+            <h1>EduVerse</h1>
+            <hr>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="profile.html">Profile</a>
+            <a href="courses.html">Courses</a>
+            <a href="exams.html">Exams</a>
+            <a href="results.html">Results</a>
+            <a href="attendance.html">Attendance</a>
+            <a href="notices.html">Notices</a>
+            <a href="materials.html">Materials</a>
+            <a href="home.html" class="logout">Logout</a>
+        </div>
+
+        <div class="main">
+            <div class="top">
+                <div>
+                    <h2>Student Dashboard</h2>
+                </div>
+
+                <div class="student">
+                    <h3>Netra Patel</h3>
+                </div>
+            </div>
+
+            <table class="intro">
+                <tr>
+                    <td>
+                        <h1>Notices</h1>
+                        <p>Stay updated with the latest announcements and important information.</p>
+                    </td>
+                </tr>
+            </table>
+
+            <div class="notice-controls">
+                <input type="text" id="searchNotice" placeholder="Search notices">
+
+                <select id="noticeFilter">
+                    <option value="all">All Categories</option>
+                    <option value="Academic">Academic</option>
+                    <option value="Examination">Examination</option>
+                    <option value="Library">Library</option>
+                    <option value="Events">Events</option>
+                    <option value="General">General</option>
+                </select>
+
+                <select id="noticeSort">
+                    <option value="new">Newest First</option>
+                    <option value="old">Oldest First</option>
+                    <option value="az">A-Z</option>
+                </select>
+            </div>
+
+            <div id="noticeList"></div>
+
+            <div id="pagination"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
